@@ -1,14 +1,11 @@
 # EDA Receiver (スマートフォンアプリ)
-
 Pixel Watch 2/3で計測された皮膚電気活動（EDA）データを受信・表示・管理するためのAndroidアプリケーションです．  
 Pixel Watchからリアルタイムでデータを受信し，グラフ表示や記録の閲覧が可能になっています．
 
-<img width="1080" height="2400" alt="Screenshot_20251202-210452" src="https://github.com/user-attachments/assets/a5817046-f7bd-40b4-bfa1-6d8bcd755110" />
-<img width="1080" height="2400" alt="Screenshot_20251202-210439" src="https://github.com/user-attachments/assets/b66cfaef-86e7-4db4-a8b7-e8ac4afd07c2" />
-
+<img width="300" alt="Screenshot_20251202-210452" src="https://github.com/user-attachments/assets/a5817046-f7bd-40b4-bfa1-6d8bcd755110" />
+<img width="300" alt="Screenshot_20251202-210439" src="https://github.com/user-attachments/assets/b66cfaef-86e7-4db4-a8b7-e8ac4afd07c2" />
 
 ## 概要
-
 Pixel Watchの「Pixel Watch EDA Logger」と連携することで，EDAデータの受信と管理が行えるようになっています．  
 基本的には以下の機能が使用できるようになっています：
 
