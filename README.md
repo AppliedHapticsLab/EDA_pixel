@@ -49,10 +49,14 @@ Pixel Watchから受信し，Downloadsフォルダに保存されるCSVファイ
 
 | カラム名 | 説明 |
 | --- | --- |
-| `SessionStartTime` | セッション開始時の日時文字列 |
-| `Timestamp_ms` | システム時刻 (ミリ秒) |
-| `Raw_mOhms` | センサーから取得した生の抵抗値 (mΩ) |
-| `Converted_uS` | コンダクタンスに変換されたEDA値 (µS) |
+| `Timestamp_ms` | システム時刻（ミリ秒、Unixエポック時刻） |
+| `Elapsed_sec` | 記録開始からの経過時間（秒、小数点3桁） |
+| `Raw_mOhms` | センサーから取得した生の抵抗値（mΩ） |
+| `Converted_uS` | コンダクタンスに変換されたEDA値（µS） |
+
+> [!WARNING]
+> **本サイトを参考にデータを単位変換しています．本来の単位とずれている可能性もあるので単位は目安程度としていただければと思います．**
+> URL：https://smart-health.pages.cs.hs-rm.de/activesense/sensor/sensor_db/
 
 **計算式:**
 `Converted_uS = 1,000,000,000 / Raw_mOhms`
