@@ -1,5 +1,5 @@
 
-<img width="512" height="512" alt="appimage_pixel" 
+<img width="300" height="300" alt="appimage_pixel" 
        src="https://github.com/user-attachments/assets/c54c688d-90aa-4348-835a-c3305dcc2167" 
        style="border-radius: 50%;" />
 
